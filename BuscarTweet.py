@@ -1,20 +1,4 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
 
-# Sistemas Distribuidos
-# Seminario 4 con fecha 7/04/2015
-
-# Autores:
-#   José Carlos Solís Lojo
-#   Alejandro Rosado Pérez
-
-# Explicación del Programa:
-# Se buscarán los ultimos tweets de twitter que contengan un determinado término y la 
-# localización de estos. La búsqueda se centrará en 100km alrededor de cádiz capital.
-# El término de búsqueda puede introducirse a través de un cuadro de texto habilitado 
-# para ello o dejar en blanco, en cuyo caso se buscará el término "hola".
-# Una vez obtenidas las localizaciones de estos tweets, se mostrarán en un mapa de google
-# maps en la misma página.
 
 import twitterAPI
 import json
